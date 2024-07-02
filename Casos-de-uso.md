@@ -6,6 +6,7 @@ Bem-vindo a página principal dos casos de uso! Aqui você pode encontrar links 
 
 1. [Registro de Usuário](#---c-01-registro-de-usuário)
 2. [Login de Usuário](#---c-02-login-do-usuário)
+3. [Interação Social](#---c-03-interação-social)
 
  
 
