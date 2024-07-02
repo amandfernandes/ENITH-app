@@ -1,7 +1,7 @@
  # [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ffff&size=35&center=true&vCenter=true&width=1000&lines=Bem-vindo(a)!+:%29;Documentação+Inicial;ENITH)](https://git.io/typing-svg)
 
-![GitHub forks](https://img.shields.io/github/forks/amandfernandes/ENITH-app?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/amandfernandes/ENITH-app?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/sarahferrarir/ENITH.app?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/sarahferrarir/ENITH.app?style=for-the-badge)
 
  Esta branch serve como o repositório central para todas as informações relacionadas à funcionalidade do aplicativo como uma ferramenta de gerenciamento de rotinas e hábitos, bem como uma plataforma de rede social. A documentação inclui detalhes sobre a interface do usuário, sincronização de dados, e estratégias para fomentar a comunidade e o apoio mútuo entre os usuários. Essa branch será essencial para o desenvolvimento contínuo do aplicativo, assegurando que a documentação esteja sempre atualizada e disponível para todos os envolvidos no projeto.
  
