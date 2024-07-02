@@ -3,7 +3,7 @@ O propósito do aplicativo é ajudar as pessoas a organizar e gerenciar suas rot
 
 ## 💡 5W2H
 ### What? Qual a utilidade do aplicativo?
-Nosso aplicativo é uma ferramenta abrangente para o estabelecimento e gerenciamento de rotinas e hábitos. Ele incorpora uma série de recursos para motivar os usuários e facilitar a criação de novas rotinas, visando proporcionar uma experiência de usuário eficaz e envolvente, ajudando os usuários a estabelecer, manter e melhorar suas rotinas e hábitos de maneira eficiente.
+Nosso aplicativo é uma ferramenta abrangente para o estabelecimento e gerenciamento de rotinas e hábitos. Ele incorpora uma série de recursos para motivar os usuários e facilitar a criação de novas rotinas, visando proporcionar uma experiência de usuário eficaz e envolvente, ajudando os usuários a estabelecer, manter e melhorar suas rotinas e hábitos de maneira eficiente. 
 
 ### Who? Quem será o nosso público-alvo?
 O aplicativo é destinado a todas as pessoas que têm o objetivo de estabelecer, criar ou organizar uma rotina, independentemente de sua idade, ocupação ou estilo de vida.

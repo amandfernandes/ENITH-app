@@ -23,7 +23,6 @@
 - RN-22: Os usuários devem poder exportar suas entradas relacionadas à rotina diária em formato de arquivo para backup ou compartilhamento externo;
 - RN-23: Os usuários devem poder criar tarefas e objetivos compartilhados com seus amigos, onde ambos têm uma responsabilidade mútua de cumprir a tarefa em conjunto. O usuário que cria a tarefa pode definir sua frequência (diária ou semanal) e convidar seus amigos para participarem. Uma vez aceito o convite, os amigos podem visualizar e acompanhar o progresso da tarefa compartilhada, recebendo notificações sobre atualizações e contribuindo para sua conclusão. Essa funcionalidade promove a colaboração entre os usuários, incentivando o apoio mútuo e a consecução de objetivos comuns.
 
-
 ## 🛠 Requisitos Técnicos
 
 ### Funcionais
@@ -56,7 +55,6 @@
 
 ### Não Funcionais
 - RNF-01: Utilização de tecnologia Framework;
-
     → ***React Native***
 - RNF-02: O aplicativo deve ser fácil de usar, com uma interface intuitiva e uma experiência de usuário agradável.
 - RNF-03: Garantir a compatibilidade multiplataforma, garantindo que o aplicativo funcione de maneira consistente em diferentes dispositivos móveis (iOS e Android).
