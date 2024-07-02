@@ -20,3 +20,8 @@ O caso de uso "Registro de Usuário" descreve o processo pelo qual um novo usuá
 
 O caso de uso "Login de Usuário" descreve o processo pelo qual um usuário existente acessa o aplicativo, podendo escolher entre fazer login com um endereço de e-mail e senha ou através de uma plataforma de mídia social. O sistema valida as credenciais do usuário, autentica-o e direciona-o para a tela inicial do aplicativo.
 [Clique aqui para mais detalhes](Casos%20de%20uso/Case-2.md).
+
+####  - 📌 **C-03: Interação Social**
+
+O caso de uso "Interação Social" descreve como os usuários podem se conectar no aplicativo, enviando e recebendo solicitações de amizade, além de poderem seguir outros usuários. Ao enviar uma solicitação de amizade, o usuário automaticamente passa a seguir o outro usuário, e caso a solicitação seja aceita, ambos se seguem mutuamente. O sistema notifica os usuários sobre as ações relacionadas às solicitações de amizade e acompanha as interações entre os usuários, permitindo que eles se conectem e compartilhem conteúdo.
+[Clique aqui para mais detalhes](Casos%20de%20uso/Case-3.md).
