@@ -1,5 +1,5 @@
 ## 📄 Propósito Do App
-  
+O propósito do aplicativo é ajudar as pessoas a organizar e gerenciar suas rotinas e hábitos de forma eficaz, com o objetivo de aumentar a produtividade, o bem-estar e a qualidade de vida dos usuários. O aplicativo funciona como uma ferramenta para criar e manter rotinas personalizadas, desenvolvendo hábitos saudáveis e melhorando a organização e a produtividade, tudo isso com o intuito de manter a pessoa motivada e focada em seus objetivos. Ele visa ser uma solução abrangente e acessível para pessoas que buscam uma vida mais organizada, produtiva e equilibrada.
 
 ## 💡 5W2H
 ### What? Qual a utilidade do aplicativo?

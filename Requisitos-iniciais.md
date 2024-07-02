@@ -5,12 +5,11 @@
 - RN-04: O aplicativo deve exibir um feed de notícias com as postagens de todos os usuários, dos usuários seguidos pelo usuário atual e dos amigos do usuário.
 - RN-05: O aplicativo deve permitir que os usuários pesquisem rotinas, usuários ou modelos de rotina usando palavras-chave.
 - RN-06: O aplicativo deve funcionar offline e enviar lembretes ou notificações para os usuários com base no horário das tarefas em suas rotinas.
-- RN-06: O aplicativo deve fornecer análises e insights sobre a produtividade do usuário.
-- RN-07: O aplicativo deve ser fácil de usar, com uma interface de usuário intuitiva e uma experiência de usuário agradável.
-- RN-08: Os usuários devem poder registrar detalhes sobre sua saúde física, como peso, altura, idade, e outros parâmetros relevantes.
+- RN-07: O aplicativo deve fornecer análises e insights sobre a produtividade do usuário.
+- RN-08: O aplicativo deve ser fácil de usar, com uma interface de usuário intuitiva e uma experiência de usuário agradável.
 - RN-09: O aplicativo deve permitir que os usuários rastreiem seu progresso em metas de saúde e fitness ao longo do tempo, fornecendo gráficos e estatísticas visuais.
 - RN-10: Os usuários devem poder criar e gerenciar listas de tarefas diárias ou semanais, com a capacidade de marcar tarefas como concluídas e definir lembretes para tarefas futuras.
-- RN-11: O aplicativo deve permitir que os usuários registrem o que comeram ao longo do dia. Os usuários devem poder adicionar detalhes sobre cada item alimentar, incluindo nome, quantidade, e informações nutricionais, como calorias, proteínas, gorduras, carboidratos, vitaminas, e minerais. O aplicativo deve calcular automaticamente o total de calorias e outros valores nutricionais com base nos itens registrados.
+- RN-11: O aplicativo deve permitir que os usuários registrem o que comeram ao longo do dia. Os usuários devem poder adicionar detalhes sobre cada item alimentar, incluindo nome, quantidade, e informações nutricionais, como calorias, proteínas, gorduras, carboidratos, vitaminas, e minerais. O aplicativo deve calcular automaticamente o total de calorias e outros valores  nutricionais com base nos itens registrados.
 - RN-12: Os usuários devem poder registrar seu consumo de água diário e acompanhar sua ingestão de líquidos ao longo do dia.
 - RN-13: O aplicativo deve fornecer recursos de monitoramento do sono, permitindo que os usuários registrem a qualidade e a duração de seu sono, além de receber sugestões para melhorar seus hábitos de sono.
 - RN-14: Os usuários devem poder exportar e fazer backup de seus dados pessoais, garantindo a portabilidade e segurança de suas informações.
@@ -53,8 +52,11 @@
 - RF-23: Integrar ferramentas de monitoramento de desempenho para acompanhar a utilização de recursos do servidor, identificar gargalos de desempenho e realizar ajustes conforme necessário.
 - RF-24: Desenvolver um sistema de convites e permissões que permita aos usuários criar tarefas compartilhadas e convidar amigos para participarem. Isso inclui a criação de uma interface de usuário intuitiva para criar e gerenciar tarefas compartilhadas, bem como a implementação de lógica de permissões para garantir que apenas os participantes autorizados possam visualizar e contribuir para as tarefas compartilhadas. Além disso, o sistema deve ser capaz de enviar notificações aos participantes sobre atualizações e lembretes relacionados às tarefas compartilhadas.
 
+
 ### Não Funcionais
 - RNF-01: Utilização de tecnologia Framework;
+    → ***React Native***
+- RNF-02: O aplicativo deve ser fácil de usar, com uma interface intuitiva e uma experiência de usuário agradável.
 - RNF-03: Garantir a compatibilidade multiplataforma, garantindo que o aplicativo funcione de maneira consistente em diferentes dispositivos móveis (iOS e Android).
 - RNF-04: Implementar testes de usabilidade e conduzir testes beta com usuários reais para garantir uma experiência de usuário otimizada.
 - RNF-05: Garantir que o aplicativo seja leve e responsivo, mesmo em dispositivos móveis com recursos limitados de hardware.
@@ -62,7 +64,4 @@
 - RNF-07: Garantir alta disponibilidade e tolerância a falhas, implementando estratégias de redundância e failover para minimizar o tempo de inatividade e manter a continuidade do serviço.
 - RNF-08: Realizar testes de segurança regulares e análises de vulnerabilidades para identificar e corrigir potenciais brechas de segurança na aplicação.
 - RNF-09: Adotar práticas de desenvolvimento ágil e integração contínua para garantir entregas frequentes e atualizações de software sem interrupções significativas para os usuários.
-
-    → ***React Native***
-- RNF-02: O aplicativo deve ser fácil de usar, com uma interface intuitiva e uma experiência de usuário agradável.
 
