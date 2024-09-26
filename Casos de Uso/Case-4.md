@@ -10,20 +10,25 @@
 
 ### Fluxo Principal:
 - **Passo 1**: O usuário acessa a área de “Tarefas” no aplicativo.
-- **Passo 2**: O usuário cria uma nova tarefa, inserindo título, descrição, data de execução e lembretes opcionais.
-- **Passo 3**: O sistema salva a nova tarefa e exibe a lista de todas as tarefas para o dia ou semana.
-- **Passo 4**:  O sistema gera gráficos visuais, mostrando o progresso em períodos determinados (diário, semanal, mensal).
-- **Passo 5**: O usuário pode comparar os dados de diferentes períodos ou metas, ajustando os filtros.
+- **Passo 2**: O usuário cria uma nova tarefa:
+    - **Passo 2.1**: O usuário insere um título e uma descrição da tarefa.
+    - **Passo 2.2**: O usuário define uma data para a tarefa, ou, caso seja uma tarefa repetida:
+        - **Passo 2.2.1**: O usuário define a frequência da tarefa, como semanal, díaria, de dois em dois dias, etc
+    - **Passo 2.3**: O usuário escolhe como receber notificações referentes à essa tarefa:
+        - **Passo 2.3.1**: O usuário define a frequência dos lembretes, tanto como os horários que deseja recebê-los.
+    - **Passo 2.4**: O sistema salva a nova tarefa e exibe a lista de todas as tarefas para o dia ou semana.
+- **Passo 3**: O usuário marca a tarefa como concluída após completá-la.
+- **Passo 4**: O sistema atualiza o status da tarefa e move-a para a seção de "Concluídas".
 
 ### Pós-condições:
-- O usuário consegue visualizar seu progresso e compreender seu desempenho ao longo do tempo.
+- O usuário possui uma lista gerenciada de tarefas, com lembretes e a possibilidade de marcar tarefas como concluídas.
 
 ### Fluxo Alternativo:
-- Se o usuário não tiver metas registradas:
-   -  O sistema exibe uma mensagem sugerindo que o usuário crie novas metas.
+- Se o usuário não definir lembretes:
+    - O sistema salva a tarefa sem lembretes.
 
 ### Exceções:
-- Falha ao carregar gráficos por causa de erro de conexão.
+- Falha ao criar tarefa por erro de conexão com o servidor.
 
 ### Observações:
-- O sistema deve permitir que o usuário exporte gráficos e estatísticas de seu progresso para compartilhamento ou backup.
+- O sistema deve permitir a reabertura de tarefas marcadas como concluídas, caso o usuário deseje revisitar ou ajustar algo.
