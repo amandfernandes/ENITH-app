@@ -14,7 +14,7 @@
 - **Passo 3**: O usuário aperta o ícone '+' para adicionar uma entrada de texto.
     - **Passo 3.1**: O usuário insere uma entrada de texto, descrevendo sua experiência ao realizar a tarefa ou meta, incluindo dificuldades e sentimentos.
     - **Passo 3.2**: O sistema salva o texto inserido e associa à tarefa ou meta correspondente.
-- **Passo 3**: O usuário pode visualizar as entradas de texto associadas a cada tarefa ou meta a qualquer momento.
+- **Passo 4**: O usuário pode visualizar as entradas de texto associadas a cada tarefa ou meta a qualquer momento.
 
 ### Pós-condições:
 - O usuário consegue registrar e consultar suas reflexões e observações sobre cada tarefa ou meta.
