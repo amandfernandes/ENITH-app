@@ -26,3 +26,23 @@ O caso de uso "Login de Usuário" descreve o processo pelo qual um usuário exis
 
 O caso de uso "Interação Social" descreve como os usuários podem se conectar no aplicativo, enviando e recebendo solicitações de amizade, além de poderem seguir outros usuários. Ao enviar uma solicitação de amizade, o usuário automaticamente passa a seguir o outro usuário, e caso a solicitação seja aceita, ambos se seguem mutuamente. O sistema notifica os usuários sobre as ações relacionadas às solicitações de amizade e acompanha as interações entre os usuários, permitindo que eles se conectem e compartilhem conteúdo.
 [Clique aqui para mais detalhes](Casos%20de%20Uso/Case-3.md).
+
+####  - 📌 **C-04: Gerenciamento de Tarefas Diárias e Semanais**
+
+O caso de uso "Gerenciamento de Tarefas Diárias e Semanais" descreve como os usuários podem criar e gerenciar listas de tarefas diárias ou semanais. O usuário pode adicionar novas tarefas, definir lembretes, marcar tarefas como concluídas e visualizar as tarefas realizadas, facilitando o controle de suas atividades.
+[Clique aqui para mais detalhes](Casos%20de%20Uso/Case-4.md).
+
+####  - 📌 **C-05: Entradas de Texto para Tarefas e Metas**
+
+O caso de uso "Entradas de Texto para Tarefas e Metas" descreve como os usuários podem registrar suas experiências relacionadas a tarefas ou metas. O sistema permite que o usuário adicione observações sobre o que sentiu, dificuldades encontradas e outras reflexões, associando essas entradas às tarefas ou metas correspondentes.
+[Clique aqui para mais detalhes](Casos%20de%20Uso/Case-5.md).
+
+####  - 📌 **C-06: Associação de Fotos às Tarefas e Metas**
+
+O caso de uso "Associação de Fotos às Tarefas e Metas" descreve o processo pelo qual os usuários podem associar fotos às suas tarefas ou metas. O sistema permite que o usuário adicione imagens para documentar visualmente o progresso ou resultado alcançado, oferecendo um registro mais completo de suas atividades.
+[Clique aqui para mais detalhes](Casos%20de%20Uso/Case-6.md).
+
+####  - 📌 **C-07: Rastreamento de Metas de Saúde e Fitness**
+
+O caso de uso "Rastreamento de Metas de Saúde e Fitness" descreve o processo pelo qual um usuário pode acompanhar seu progresso em metas de saúde e fitness. O sistema exibe gráficos e estatísticas visuais sobre o desempenho do usuário em diferentes períodos, permitindo que ele visualize e compare o progresso ao longo do tempo.
+[Clique aqui para mais detalhes](Casos%20de%20Uso/Case-7.md).
