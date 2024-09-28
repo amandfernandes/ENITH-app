@@ -33,7 +33,7 @@ O caso de uso "Interação Social" descreve como os usuários podem se conectar 
 
 ####  - 📌 **C-04: Gerenciamento de Tarefas**
 
-O caso de uso "Gerenciamento de Tarefas" descreve como os usuários podem criar e gerenciar listas de tarefas diárias ou semanais. O usuário pode adicionar novas tarefas, definir lembretes, marcar tarefas como concluídas e visualizar as tarefas realizadas, facilitando o controle de suas atividades.
+O caso de uso "Gerenciamento de Tarefas" descreve como os usuários podem criar e gerenciar listas de tarefas mensais, diárias ou semanais. O usuário pode adicionar novas tarefas, definir lembretes, marcar tarefas como concluídas e visualizar as tarefas realizadas, facilitando o controle de suas atividades.
 [Clique aqui para mais detalhes](Casos%20de%20Uso/Case-4.md).
 
 ####  - 📌 **C-05: Entradas de Texto para Tarefas e Metas**
