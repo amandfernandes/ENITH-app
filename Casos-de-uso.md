@@ -7,6 +7,10 @@ Bem-vindo a página principal dos casos de uso! Aqui você pode encontrar links 
 1. [Registro de Usuário](#---c-01-registro-de-usuário)
 2. [Login de Usuário](#---c-02-login-do-usuário)
 3. [Interação Social](#---c-03-interação-social)
+4. [Gerenciamento de Tarefas Diárias e Semanais](#---c-04-interação-social)
+5. [Interação Social](#---c-03-interação-social)
+6. [Interação Social](#---c-03-interação-social)
+7. [Interação Social](#---c-03-interação-social)
 
  
 
