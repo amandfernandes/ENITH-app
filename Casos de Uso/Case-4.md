@@ -1,4 +1,4 @@
-## ⚡ **4º Caso de Uso**: Criação e Gerenciamento de Tarefas Diárias e Semanais
+## ⚡ **4º Caso de Uso**: Criação e Gerenciamento de Tarefas
 ### Objetivo: 
 → Permitir que os usuários criem e gerenciem listas de tarefas diárias ou semanais, com a capacidade de marcar tarefas como concluídas e definir lembretes para tarefas futuras.
 
@@ -13,7 +13,7 @@
 - **Passo 2**: O usuário cria uma nova tarefa:
     - **Passo 2.1**: O usuário insere um título e uma descrição da tarefa.
     - **Passo 2.2**: O usuário define uma data para a tarefa, ou, caso seja uma tarefa repetida:
-        - **Passo 2.2.1**: O usuário define a frequência da tarefa, como semanal, díaria, de dois em dois dias, etc
+        - **Passo 2.2.1**: O usuário define a frequência da tarefa, como mensa, semanal, díaria, de dois em dois dias, etc
     - **Passo 2.3**: O usuário escolhe como receber notificações referentes à essa tarefa:
         - **Passo 2.3.1**: O usuário define a frequência dos lembretes, tanto como os horários que deseja recebê-los.
     - **Passo 2.4**: O sistema salva a nova tarefa e exibe a lista de todas as tarefas para o dia ou semana.
