@@ -26,42 +26,68 @@
 ## 🛠 Requisitos Técnicos
 
 ### Funcionais
-- RF-01:  O aplicativo deve permitir que os usuários se registrem e façam login usando um endereço de e-mail ou através de plataformas de mídia social.
-- RF-02:  O aplicativo deve oferecer templates de rotina pré-definidos que os usuários podem usar como ponto de partida para criar suas próprias rotinas. Os usuários devem ser capazes de personalizar esses templates de acordo com suas necessidades.
-- RF-03: O aplicativo deve exibir um feed de notícias que mostra as publicações de todos os usuários.
-- RF-04: O aplicativo deve exibir um feed de notícias que mostra as publicações dos usuários que ele segue.
-- RF-05: O aplicativo deve exibir um feed de notícias que mostra as publicações dos usuários que são amigos dele.
-- RF-06: Os usuários devem ser capazes de enviar e receber solicitações de amizade, seguir outros usuários, e ver uma lista de seus amigos e seguidores.
-- RF-07: Os usuários devem ser capazes de seguir outros usuários, curtir, comentar as postagens de rotina.
-- RF-08: O aplicativo deve permitir que os usuários pesquisem por outras rotinas, usuários ou templates de rotina usando palavras-chave.
-- RF-09: Os usuários devem ser capazes de definir suas rotinas como públicas, privadas ou visíveis apenas para certos usuários.
-- RF-10: Os usuários devem ser capazes de criar, editar e excluir rotinas personalizadas. As rotinas podem incluir várias tarefas, cada uma com seu próprio horário.
-- RF-11: Os usuários devem ser capazes de publicar sua rotina, que podem incluir texto, fotos, vídeos e links. Eles também devem ser capazes de editar ou excluir suas próprias publicações.
-- RF-12: O aplicativo deve funcionar offline, permitindo que os usuários visualizem e editem suas rotinas mesmo sem conexão à internet.
-- RF-13: O aplicativo deve enviar lembretes ou notificações para os usuários com base no horário das tarefas em suas rotinas.
-- RF-14: O aplicativo deve fornecer análises e insights sobre a produtividade do usuário, como tarefas concluídas, tempo gasto em cada tarefa, etc.
-- RF-15: Implementar funcionalidades de diário, onde os usuários podem registrar eventos diários, sentimentos e pensamentos. Eles devem poder associar fotos a essas entradas de diário.
-- RF-16: Desenvolver recursos de planejamento de refeições, permitindo que os usuários registrem suas refeições diárias, incluindo detalhes nutricionais como calorias, proteínas, carboidratos, etc.
-- RF-17: Integrar um sistema de monitoramento de atividades físicas, onde os usuários podem registrar os exercícios realizados, duração e intensidade, além de acompanhar seu progresso ao longo do tempo.
-- RF-18: Implementar funcionalidades de planejamento de metas e tarefas diárias, onde os usuários podem definir objetivos e acompanhar seu progresso. Eles devem poder associar sentimentos e dificuldades enfrentadas ao realizar essas tarefas.
-- RF-19: Implementar um sistema de armazenamento de dados escalável e resiliente para lidar com o aumento do volume de usuários e informações.
-- RF-20: Integrar serviços de análise de dados para gerar insights sobre o uso da plataforma, padrões de comportamento dos usuários e melhorias potenciais na experiência do usuário.
-- RF-20: Desenvolver recursos de sincronização em tempo real para garantir que as atualizações feitas em um dispositivo sejam refletidas imediatamente em outros dispositivos associados à mesma conta de usuário.
-- RF-21: Implementar técnicas de cache para otimizar o desempenho e reduzir o tempo de carregamento, especialmente para recursos frequentemente acessados, como feeds de notícias e calendários.
-- RF-22: Utilizar tecnologias de compressão de imagem para reduzir o tamanho das fotos enviadas pelos usuários, minimizando o consumo de largura de banda e o tempo de carregamento.
-- RF-23: Integrar ferramentas de monitoramento de desempenho para acompanhar a utilização de recursos do servidor, identificar gargalos de desempenho e realizar ajustes conforme necessário.
-- RF-24: Desenvolver um sistema de convites e permissões que permita aos usuários criar tarefas compartilhadas e convidar amigos para participarem. Isso inclui a criação de uma interface de usuário intuitiva para criar e gerenciar tarefas compartilhadas, bem como a implementação de lógica de permissões para garantir que apenas os participantes autorizados possam visualizar e contribuir para as tarefas compartilhadas. Além disso, o sistema deve ser capaz de enviar notificações aos participantes sobre atualizações e lembretes relacionados às tarefas compartilhadas.
+- RF-01: O sistema deve permitir que o usuário se registre utilizando um endereço de e-mail e senha, ou por meio de autenticação via plataformas de mídia social.
+- RF-02: O sistema deve permitir que o usuário faça login utilizando um endereço de e-mail e senha, ou por meio de autenticação via plataformas de mídia social.
+- RF-03: O sistema deve disponibilizar templates de rotinas pré-definidas que possam ser utilizados como ponto de partida para a criação de rotinas personalizadas.
+- RF-04: O sistema deve permitir que o usuário personalize os templates de rotinas conforme suas necessidades.
+- RF-05: O sistema deve permitir que o usuário realize buscas por rotinas, outros usuários e templates de rotina, utilizando palavras-chave.
+- RF-06: O sistema deve permitir que o usuário crie, edite e exclua rotinas personalizadas.
+- RF-07: O sistema deve permitir que cada rotina personalizada inclua várias tarefas, cada uma com um horário definido.
+- RF-08: O sistema deve permitir que o usuário visualize e edite suas rotinas sem necessidade de conexão com a internet, garantindo o funcionamento offline do aplicativo.
+- RF-09: O sistema deve enviar lembretes ou notificações ao usuário com base no horário definido para cada tarefa em suas rotinas.
+- RF-10: O sistema deve fornecer análises e insights sobre a produtividade do usuário, incluindo métricas como número de tarefas concluídas e tempo gasto em cada tarefa.
+- RF-11: O sistema deve permitir que o usuário defina metas e tarefas diárias, com a possibilidade de acompanhar o progresso de cada objetivo.
+- RF-12: O sistema deve permitir que o usuário associe sentimentos e dificuldades enfrentadas ao realizar as tarefas diárias, como parte do acompanhamento do progresso.
+- RF-13: O sistema deve permitir que o usuário utilize o modelo Pomodoro para gerenciar o tempo, com sessões de trabalho de 25 minutos seguidas por intervalos de 5 minutos, e um intervalo mais longo após quatro sessões.
+
+- RF-14: O sistema deve permitir que o usuário registre eventos diários, sentimentos e pensamentos em um diário pessoal.
+- RF-15: O sistema deve permitir que o usuário associe fotos às suas entradas de diário.
+
+- RF-16: O sistema deve permitir que o usuário envie e receba solicitações de amizade.
+- RF-17: O sistema deve permitir que o usuário siga outros usuários.
+- RF-18: O sistema deve permitir que o usuário visualize uma lista de seus amigos e seguidores.
+- RF-19: O sistema deve permitir que o usuário defina a visibilidade de suas rotinas como pública, privada ou visível apenas para usuários selecionados.
+- RF-20: O sistema deve exibir um feed de notícias com as publicações de todos os usuários.
+- RF-21: O sistema deve exibir um feed de notícias com as publicações dos usuários que o usuário segue.
+- RF-22: O sistema deve exibir um feed de notícias com as publicações dos usuários que são amigos do usuário.
+- RF-23: O sistema deve permitir que o usuário siga outros usuários.
+- RF-24: O sistema deve permitir que o usuário curta as postagens de rotina de outros usuários.
+- RF-25: O sistema deve permitir que o usuário comente nas postagens de rotina de outros usuários.
+- RF-26: O sistema deve permitir que o usuário publique sua rotina, incluindo texto, fotos, vídeos e links.
+- RF-27: O sistema deve permitir que o usuário edite ou exclua suas próprias publicações.
+- RF-28: O sistema deve permitir que o usuário crie tarefas compartilhadas e convide amigos para participar delas.
+
+- RF-29: O sistema deve fornecer uma interface de usuário intuitiva para criar e gerenciar tarefas compartilhadas.
+- RF-30: O sistema deve implementar uma lógica de permissões para garantir que apenas os participantes autorizados possam visualizar e contribuir para as tarefas compartilhadas.
+- RF-31: O sistema deve enviar notificações aos participantes sobre atualizações e lembretes relacionados às tarefas compartilhadas.
+
+- RF-32: O sistema deve permitir que o usuário registre suas refeições diárias, incluindo detalhes nutricionais como calorias, proteínas, carboidratos, entre outros.
+- RF-33: O sistema deve integrar um monitoramento de atividades físicas, permitindo que o usuário registre os exercícios realizados, incluindo duração e intensidade.
+- RF-34: O sistema deve permitir que o usuário acompanhe seu progresso nas atividades físicas ao longo do tempo.
+
+- RF-35: O sistema deve implementar recursos de sincronização em tempo real, garantindo que as atualizações feitas em um dispositivo sejam imediatamente refletidas em outros dispositivos associados à mesma conta de usuário.
+
+- RF-36: O sistema deve integrar serviços de análise de dados para gerar insights sobre o uso da plataforma, identificando padrões de comportamento dos usuários.
+- RF-37: O sistema deve utilizar os dados analisados para identificar melhorias potenciais na experiência do usuário.
 
 
-### Não Funcionais
-- RNF-01: Utilização de tecnologia Framework;
-    → ***React Native***
-- RNF-02: O aplicativo deve ser fácil de usar, com uma interface intuitiva e uma experiência de usuário agradável.
-- RNF-03: Garantir a compatibilidade multiplataforma, garantindo que o aplicativo funcione de maneira consistente em diferentes dispositivos móveis (iOS e Android).
-- RNF-04: Implementar testes de usabilidade e conduzir testes beta com usuários reais para garantir uma experiência de usuário otimizada.
-- RNF-05: Garantir que o aplicativo seja leve e responsivo, mesmo em dispositivos móveis com recursos limitados de hardware.
-- RNF-06: Utilizar boas práticas de segurança da informação para proteger os dados dos usuários, como criptografia de dados em repouso e em trânsito, além de garantir conformidade com regulamentações de privacidade, como GDPR e LGPD.
-- RNF-07: Garantir alta disponibilidade e tolerância a falhas, implementando estratégias de redundância e failover para minimizar o tempo de inatividade e manter a continuidade do serviço.
-- RNF-08: Realizar testes de segurança regulares e análises de vulnerabilidades para identificar e corrigir potenciais brechas de segurança na aplicação.
-- RNF-09: Adotar práticas de desenvolvimento ágil e integração contínua para garantir entregas frequentes e atualizações de software sem interrupções significativas para os usuários.
+## Não Funcionais
+- RNF-01: O sistema deve implementar técnicas de cache para otimizar o desempenho e reduzir o tempo de carregamento, especialmente para recursos frequentemente acessados, como feeds de notícias e calendários.
+- RNF-02: O sistema deve utilizar tecnologias de compressão de imagem para reduzir o tamanho das fotos enviadas pelos usuários, minimizando o consumo de largura de banda e o tempo de carregamento.
+- RNF-03: O sistema deve ser fácil de usar, oferecendo uma interface intuitiva e proporcionando uma experiência de usuário agradável.
+
+- RNF-04: O sistema deve garantir compatibilidade multiplataforma, assegurando que o aplicativo funcione de maneira consistente em diferentes dispositivos móveis, incluindo iOS e Android.
+- RNF-05: O sistema deve garantir que o aplicativo seja leve e responsivo, mesmo em dispositivos móveis com recursos limitados de hardware.
+
+- RNF-06: O sistema deve implementar um sistema de armazenamento de dados escalável e resiliente, capaz de lidar com o aumento do volume de usuários e informações.
+- RNF-07: O sistema deve integrar ferramentas de monitoramento de desempenho para acompanhar a utilização de recursos do servidor, identificar gargalos de desempenho e permitir ajustes conforme necessário.
+
+- RNF-08: O sistema deve implementar testes de usabilidade e conduzir testes beta com usuários reais para garantir uma experiência de usuário otimizada.
+
+- RNF-09: O sistema deve adotar boas práticas de segurança da informação para proteger os dados dos usuários, incluindo criptografia de dados em repouso e em trânsito.
+- RNF-10: O sistema deve garantir conformidade com regulamentações de privacidade, como o GDPR e a LGPD.
+- RNF-11: O sistema deve garantir alta disponibilidade e tolerância a falhas, implementando estratégias de redundância e failover para minimizar o tempo de inatividade e assegurar a continuidade do serviço.
+- RNF-12: O sistema deve realizar testes de segurança regulares e análises de vulnerabilidades para identificar e corrigir potenciais brechas de segurança na aplicação.
+- RNF-13: O sistema deve adotar práticas de desenvolvimento ágil e integração contínua, garantindo entregas frequentes e atualizações de software sem interrupções significativas para os usuários.
+
 
