@@ -13,7 +13,7 @@ Bem-vindo a página principal dos casos de uso! Aqui você pode encontrar links 
 7. [Rastreamento de Metas de Saúde e Fitness](#---uc-07-rastreamento-de-metas-de-saúde-e-fitness)
 8. [Disponibilizar Template Pré-definido](#---uc-08-disponibilizar-template-pré-definido)
 9. [Personalizar Template Pré-Definido](#---uc-09-personalizar-template-pré-definido)
-10. [Realizar Busca por Rotinas, Usuários e Templates de Rotina](#---uc-10-realizar-busca-por-rotinas-,-usuários-e-templates-de-rotina)
+10. [Realizar Busca por Rotinas, Usuários e Templates de Rotina](#---uc-10-realizar-busca-por-rotinas-usuários-e-templates-de-rotina)
 
 _______
 
